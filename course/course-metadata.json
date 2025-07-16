@@ -1,0 +1,34 @@
+{
+  "id": "6877b466cfc80690ffe0f561",
+  "title": "Java",
+  "description": "A comprehensive course on Java programming language",
+  "learningObjectives": [
+    "Understand basics of Java",
+    "Use Java to build software",
+    "Understand Object-Oriented Principles",
+    "Develop multi-threaded applications in Java"
+  ],
+  "finalProjectDetails": {
+    "overview": "Students will use the knowledge acquired during the course to create a multi-threaded application in Java.",
+    "planningResources": [
+      "Java Development Kit",
+      "Eclipse IDE",
+      "Java SE Documentation"
+    ],
+    "submissionInstructions": "Submit the zipped project folder using the submission link provided. Don't forget to include a README file explaining your project in detail.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "_id": "6875412897c1eb14a4924dc6",
+    "name": "Hanna Akhramchuk",
+    "image": "https://avatars.githubusercontent.com/u/75540219?v=4",
+    "githubUsername": "akhhanna20"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "createdAt": "2025-07-16T14:17:10.911Z",
+  "updatedAt": "2025-07-16T14:17:10.911Z"
+}
