@@ -4,12 +4,166 @@
   "title": "Introduction to Java",
   "status": "pending",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Setup Java Environment and Write First Program",
+    "objective": "Setup Java environment and write your first program.",
+    "expectedCapabilities": [
+      "Install and setup Java environment",
+      "Write and run a basic Java program"
+    ],
+    "submissionInstructions": "Submit a screenshot showing your code in an editor and the output in the console.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Write a Simple Java Program",
+        "description": "Write a program to print 'Hello, World!' to the console and verify it runs successfully.",
+        "codeExample": "N/A",
+        "_id": "6877b77e6f3dbb6b9bcd9f64"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Download and Install JDK",
+            "description": "Download the JDK from Oracle's website and install it on your computer following the installation instructions.",
+            "codeExample": "N/A",
+            "_id": "6877b77e6f3dbb6b9bcd9f61"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Configure Environment Variables",
+            "description": "Set the JAVA_HOME environment variable and update the PATH to include JDK bin directory for Windows/Linux.",
+            "codeExample": "N/A",
+            "_id": "6877b77e6f3dbb6b9bcd9f62"
+          },
+          {
+            "taskNumber": 3,
+            "title": "Write First Java Program",
+            "description": "Use a text editor or IDE to create a file named HelloWorld.java. Write a simple program to print 'Hello, World!' to the console.",
+            "codeExample": "public class HelloWorld { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } }",
+            "_id": "6877b77e6f3dbb6b9bcd9f63"
+          }
+        ],
+        "_id": "6877b77e6f3dbb6b9bcd9f60"
+      }
+    ],
+    "checklist": [
+      "JDK Installed",
+      "Environment Variables Configured",
+      "Program Written",
+      "Program Run",
+      "Output Verified"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What is the JDK used for?",
+        "options": [
+          "Writing Java programs",
+          "Running Java programs",
+          "Both"
+        ],
+        "answer": "Both",
+        "_id": "6877b77e6f3dbb6b9bcd9f5d"
+      },
+      {
+        "question": "What does the 'Hello, World!' program do?",
+        "options": [
+          "Prints 'Hello, World!' to the console",
+          "Shows a greeting window",
+          "Logs a message in a file"
+        ],
+        "answer": "Prints 'Hello, World!' to the console",
+        "_id": "6877b77e6f3dbb6b9bcd9f5e"
+      },
+      {
+        "question": "Why is the 'main' method important in Java?",
+        "options": [
+          "It is the entry point of the program",
+          "It stores data",
+          "It runs the Java Virtual Machine"
+        ],
+        "answer": "It is the entry point of the program",
+        "_id": "6877b77e6f3dbb6b9bcd9f5f"
+      }
+    ]
   },
-  "subsections": []
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Brief History of Java",
+      "content": "Java was developed by James Gosling at Sun Microsystems in 1995. It was designed to be platform-independent, allowing developers to write code once and run it anywhere. This characteristic, along with its object-oriented nature, made Java a popular language for building distributed applications.-NEW",
+      "videoUrl": "http://video.com/historyOfJava",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://www.oracle.com/java/"
+      ],
+      "quizzes": [
+        {
+          "question": "Who developed Java?",
+          "options": [
+            "Oracle",
+            "Microsoft",
+            "Sun Microsystems"
+          ],
+          "answer": "Sun Microsystems",
+          "_id": "6877b7896f3dbb6b9bcd9f68"
+        }
+      ],
+      "_id": "6877b7896f3dbb6b9bcd9f67"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Java Programming Environment Setup",
+      "content": "To write and run Java programs, you need to install the Java Development Kit (JDK). The JDK includes the Java Runtime Environment (JRE) and development tools that are necessary for developing, debugging, and monitoring Java applications.",
+      "videoUrl": "http://video.com/javaEnvironmentSetup",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://www.oracle.com/java/technologies/javase-jdk11-downloads.html"
+      ],
+      "quizzes": [
+        {
+          "question": "What is needed to write and run Java programs?",
+          "options": [
+            "JRE",
+            "JDK",
+            "JVM"
+          ],
+          "answer": "JDK",
+          "_id": "6877b7896f3dbb6b9bcd9f6a"
+        }
+      ],
+      "_id": "6877b7896f3dbb6b9bcd9f69"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "First Java Program",
+      "content": "Your first Java program is a simple application that prints 'Hello, World!' to the console. This program introduces you to the basic syntax of Java, including classes, the main method, and output statements.",
+      "videoUrl": "http://video.com/firstJavaProgram",
+      "codeExamples": [
+        "public class HelloWorld { public static void main(String[] args) { System.out.println(\"Hello, World!\"); } }"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "What's the entry point for any Java program?",
+          "options": [
+            "constructor",
+            "main method",
+            "init method"
+          ],
+          "answer": "main method",
+          "_id": "6877b7896f3dbb6b9bcd9f6c"
+        }
+      ],
+      "_id": "6877b7896f3dbb6b9bcd9f6b"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/javaBasics"
+  ],
+  "references": [
+    "https://docs.oracle.com/javase/tutorial/"
+  ]
 }

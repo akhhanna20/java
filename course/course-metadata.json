@@ -21,14 +21,23 @@
     ]
   },
   "createdBy": {
+    "isDeleted": false,
+    "deletedAt": null,
     "_id": "6875412897c1eb14a4924dc6",
     "name": "Hanna Akhramchuk",
+    "email": "akhhanna20@gmail.com",
     "image": "https://avatars.githubusercontent.com/u/75540219?v=4",
-    "githubUsername": "akhhanna20"
+    "githubUsername": "akhhanna20",
+    "emailVerified": null,
+    "createdAt": "2025-07-14T17:40:56.613Z",
+    "isAdmin": true,
+    "lastLogin": "2025-07-14T17:40:56.737Z",
+    "courseCount": 8
   },
   "contributors": [],
   "status": "pending",
   "originalGithubUrl": null,
+  "remoteGithubUrl": "https://github.com/akhhanna20/java",
   "createdAt": "2025-07-16T14:17:10.911Z",
-  "updatedAt": "2025-07-16T14:17:10.911Z"
+  "updatedAt": "2025-07-16T14:17:51.633Z"
 }
